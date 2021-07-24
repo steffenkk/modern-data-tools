@@ -1,17 +1,14 @@
 # List of Modern Data Tools
-
-## What do you get?
-- A list of tools used in "the modern data stack" 
-- Short describtions of the tools and their use cases
-- Links to the projects / companies behind these tools
-
 ## What is "the modern data stack", actually?
-Thats a tough one! You can't really say that there is something as the one and only modern data stack. However, there are certain ideas/tools/do's and dont's/etc. that can be combined to form a thing which is modern and is a data stack. These tools are generally easy-to-use, open, cloud-native or even SaaS. Go Data Driven has a [blog article](https://godatadriven.com/blog/modern-data-stack-the-road-to-democratizing-data/) that describes this pretty well. Now do you ask yourself: "So that's it, I just switch all my tools to those listed here and then I have it?" - far from it! As always, it's people's business ...
+Thats a tough one!  You can't really say that there is such a thing as the one and only modern data stack.However, there are certain ideas/tools/do's and dont's/etc. that can be combined to form one thing that is modern and is a data stack. These tools tend to be easy-to-use, open, cloud-native or even SaaS. Go Data Driven has a [blog article](https://godatadriven.com/blog/modern-data-stack-the-road-to-democratizing-data/) that describes this pretty well. Are you asking yourself now, "So that's it, I'll just switch all my tools to the ones listed here and then I've got it?" - Far from it! As always, it's all about the people ...
 
-## TODO:
-- add lists
-- add best practices?
-- add more describtion
+## WORK IN PROGRESS:
+Next things to add
+- more tools
+- maybe best practices / reference architecutres?
+
+## DISCLAIMER
+The author is in no way affiliated with the companies listed here and receives no compensation. The listing serves as an example and does not claim to be complete.
 
 ## Contents
 
@@ -49,10 +46,9 @@ Answer the question: how to get the data from the system into our platfrom?
 Answer the question: how can we make this data consumable?
 
 
-- [DBT]()
-- [AWS Glue]()
-- [Google Data Fusion]()
-- [Databricks]()
+- [DBT](https://www.getdbt.com/): SQL first data transformations in your datawarehouse. The "T" in ELT. Extends SQL with jinja templates for more powerful operations. Open-source or SaaS (offered by DBT Labs).
+- [AWS Glue](https://aws.amazon.com/glue/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc): Serverless Apache Spark for big data transformations. Enriched by AWS Glue tools and integrations.
+- [Databricks](https://databricks.com/): Managed Apache Spark for big data transformations in Python, Scala, Java, SQL, or R. Enriched by Databricks Utils, integrations, and a whole ecosystem of different tools (e.g. Delta Lake). 
 
 
 ## data-orchestration
@@ -68,38 +64,37 @@ Answer the question: which data comes in from where and when?
 ## data-analytics
 Answer the question: how can we access tha data?
 
-- [Snowflake]():
-- [Google BigQuery]():
-- [Azure Synapse Analytics]():
-- [AWS Redshift]():
-- [Dremio](): data lake house with dremio.
-- [Databricks](): Walk into your data lake house with databricks.
-- [Trino (formerly PrestoSQL)](): SQL-Based federated query engine to query files in your data lake as well as distributed databases.
+- [Snowflake](https://www.snowflake.com/): data warehouse of the cloud era. Sits on top of your data platform and offers you a fully fledged data warehouse. 
+- [Google BigQuery](https://cloud.google.com/bigquery): Cloud DWH from google. Serverless and dynamically scalable to adjust to any workload. 
+- [Azure Synapse Analytics](https://azure.microsoft.com/en-us/services/synapse-analytics/): Cloud DWH from Azure (SQL Pools). Use serverless (on top of the data datalake) or with provisioned instances in the Azure Cloud.
+- [AWS Redshift](https://aws.amazon.com/redshift/): Cloud DWH from Amazon. Analyze your data in a relational SQL DWH which looks and feels like postgres, or directly in the datalake with Redshift Spectrum. 
+- [Dremio](https://www.dremio.com/): SQL Lake House Solution: Build your DWH on top of your data lake to reduce data movement. 
+- [Databricks SQL Analytics](https://databricks.com/product/databricks-sql): SQL Lake House from Databricks with the power of the delta engine which allows you to use your Data Lake just like a DWH. 
+- [Trino (formerly PrestoSQL)](https://trino.io/): Open-source SQL-Based federated query engine to query files in your data lake as well as distributed databases.
 
 
 ## data-visualization
 Answer the question: what does the data tell us?
 
-- [Tableau]()
-- [Looker]()
-- [PowerBI]()
-- [ThoughtSpot]()
+- [Tableau](https://www.tableau.com/): Dashboards and BI from Tableau (Sales Force). Self hosted or SaaS.
+- [Looker](https://looker.com/): Google-cloud based SaaS BI Platform. Supports AWS Deployment as well. 
+- [PowerBI](https://powerbi.microsoft.com/en-us/): Dashboards and BI from Microsoft. Self hosted or SaaS in Azure.
+- [ThoughtSpot](https://www.thoughtspot.com/): SaaS, search-driven BI Platform to allow users create visualizations with natural language questions.
 
 
 ## data-quality
 Answer the question: can we trust that data?
 
-- [Datafold]()
-- [Monte Carlo]()
-- [Great Expectations]()
+- [Datafold](https://www.datafold.com/): Data observability platform, SaaS based. With features such as Data Diff to regression test your ETL Code. 
+- [Monte Carlo Data](https://www.montecarlodata.com/): SaaS based data observability platform to detect data-downtime and ensure data reliability. 
+- [Great Expectations](https://greatexpectations.io/): A python package to help you test and validate your data in the ETL process.  
 
 ## data-explorability
 Answer the question: what data do we actually have?
 
 - [Atlan](https://atlan.com/platform/data-catalog/): A modern data catalog for the modern data stack. Integrate and expose all your data assets in a curated and centralized repository. 
-- [Tableau Data Management Add-On]():
-- [DBT Docs]():
-- [DBT Docs]():
+- [Tableau Data Management Add-On](https://www.tableau.com/products/add-ons/data-management): Data Catalog and lineage for tableau online or server deployment.
+- [DBT Docs](https://docs.getdbt.com/reference/artifacts/catalog-json): Catalog from open-source data transformation tool dbt. Auto-genereated from your DBT Transformations and extensible in a YAML template.
 
 
 ## machine-learning
@@ -108,7 +103,7 @@ Answer the question: what can the data tell us about the future?
 
 - [Amazon Sagemaker](https://aws.amazon.com/sagemaker/): Build, train, deploy, and monitor machine learning models with this platform in AWS.
 - [Databricks Managed ML Flow](https://databricks.com/product/managed-mlflow): An open source machine learning platform based on top of Apache Spark.
-- [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/#features)
+- [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/#features): Managed ML Ops platform in Azure.
 
 
 ## languages
