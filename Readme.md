@@ -54,12 +54,11 @@ Answer the question: how can we make this data consumable?
 ## data-orchestration
 Answer the question: which data comes in from where and when?
 
+- [Dagster](https://dagster.io/): open-source data orchestration tool to build DAGs and run them. Provides an UI, CLI and an API. 
+- [Prefekt](https://www.prefect.io/): data orchestration SaaS tool with API, UI and CLI.
 - [Airflow](https://airflow.apache.org/): open-source platform to orchestrate and monitor workflows with several integrations and a powerful UI.
 - [Google Cloud Composer](https://cloud.google.com/composer): Cloud based version of Airflow in GCP.
 - [AWS Stepfunctions](https://aws.amazon.com/step-functions/): Serverless orchestration tool for AWS Services.
-- [Dagster](https://dagster.io/): open-source data orchestration tool to build DAGs and run them. Provides an UI, CLI and an API. 
-- [Prefekt](https://www.prefect.io/): data orchestration SaaS tool with API, UI and CLI.
-
 
 ## data-analytics
 Answer the question: how can we access tha data?
@@ -95,7 +94,7 @@ Answer the question: what data do we actually have?
 - [Atlan](https://atlan.com/platform/data-catalog/): A modern data catalog for the modern data stack. Integrate and expose all your data assets in a curated and centralized repository. 
 - [Tableau Data Management Add-On](https://www.tableau.com/products/add-ons/data-management): Data Catalog and lineage for tableau online or server deployment.
 - [DBT Docs](https://docs.getdbt.com/reference/artifacts/catalog-json): Catalog from open-source data transformation tool dbt. Auto-genereated from your DBT Transformations and extensible in a YAML template.
-
+- [Amundsen](https://www.amundsen.io/): open-source data catalog developed by lyft and used by multiple other companies.  Integrations to common data stores like redshift, snowflake, bigquery, etc.  
 
 ## machine-learning
 Answer the question: what can the data tell us about the future?
