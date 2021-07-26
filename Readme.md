@@ -55,7 +55,7 @@ Answer the question: how can we make this data consumable?
 Answer the question: which data comes in from where and when?
 
 - [Dagster](https://dagster.io/): open-source data orchestration tool to build DAGs and run them. Provides an UI, CLI and an API. 
-- [Prefekt](https://www.prefect.io/): data orchestration SaaS tool with API, UI and CLI.
+- [Prefect](https://www.prefect.io/): data orchestration SaaS tool with API, UI and CLI.
 - [Airflow](https://airflow.apache.org/): open-source platform to orchestrate and monitor workflows with several integrations and a powerful UI.
 - [Google Cloud Composer](https://cloud.google.com/composer): Cloud based version of Airflow in GCP.
 - [AWS Stepfunctions](https://aws.amazon.com/step-functions/): Serverless orchestration tool for AWS Services.
@@ -79,6 +79,7 @@ Answer the question: what does the data tell us?
 - [Looker](https://looker.com/): Google-cloud based SaaS BI Platform. Supports AWS Deployment as well. 
 - [PowerBI](https://powerbi.microsoft.com/en-us/): Dashboards and BI from Microsoft. Self hosted or SaaS in Azure.
 - [ThoughtSpot](https://www.thoughtspot.com/): SaaS, search-driven BI Platform to allow users create visualizations with natural language questions.
+- [Mode](https://mode.com/reports-and-dashboards/): BI Platform that integrates self-service dashboards with more advanced analytics tools such as Python and R notebooks. 
 
 
 ## data-quality
