@@ -80,7 +80,7 @@ Answer the question: what does the data tell us?
 - [PowerBI](https://powerbi.microsoft.com/en-us/): Dashboards and BI from Microsoft. Self hosted or SaaS in Azure.
 - [ThoughtSpot](https://www.thoughtspot.com/): SaaS, search-driven BI Platform to allow users create visualizations with natural language questions.
 - [Mode](https://mode.com/reports-and-dashboards/): BI Platform that integrates self-service dashboards with more advanced analytics tools such as Python and R notebooks. 
-
+- [lightdash](https://github.com/lightdash/lightdash): Open source alternative to looker (early dev stage) with native dbt integration.
 
 ## data-quality
 Answer the question: can we trust that data?
