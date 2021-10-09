@@ -87,6 +87,7 @@ Answer the question: can we trust that data?
 
 - [Datafold](https://www.datafold.com/): Data observability platform, SaaS based. With features such as Data Diff to regression test your ETL Code. 
 - [Monte Carlo Data](https://www.montecarlodata.com/): SaaS based data observability platform to detect data-downtime and ensure data reliability. 
+- [Bigeye](https://www.bigeye.com/product/getting-started): ML-powered data quality analytics SaaS for the whole data platform. Connects to your DWH and your alerting solutions easily.
 - [Great Expectations](https://greatexpectations.io/): A python package to help you test and validate your data in the ETL process.  
 
 ## data-explorability
