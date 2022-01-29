@@ -104,8 +104,9 @@ Answer the question: what can the data tell us about the future?
 
 - [Amazon Sagemaker](https://aws.amazon.com/sagemaker/): Build, train, deploy, and monitor machine learning models with this platform in AWS.
 - [Databricks Managed ML Flow](https://databricks.com/product/managed-mlflow): An open source machine learning platform based on top of Apache Spark.
-- [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/#features): Managed ML Ops platform in Azure.
-
+- [GCP Vertex AI](https://cloud.google.com/vertex-ai): Managed ML Ops platform in GCP.
+- [Kubeflow](https://www.kubeflow.org/): Kubernetes-based, framework-agnostic, cutting-edge machine learning platform.
+- [Tensorflow Extented](https://www.tensorflow.org/tfx): Open-source framework to build production ready ML pipelines with Tensorflow.
 
 ## languages
 Answer the question: how to do all this?
@@ -114,6 +115,6 @@ Answer the question: how to do all this?
 - [SQL](https://en.wikipedia.org/wiki/SQL): Database Query Language, the must-have for all data peoples.
 - [Python](https://www.python.org/): the *best* programming language on earth (author's opinion 😜).
 - [Terraform](https://www.terraform.io/): Infrastructure as code (IaC) for multiple cloud providers. Uses own language (HCL).
-- [Pulumi](https://www.pulumi.com/): IaC for multiple cloud providers. Uses mainstram languages like JavaScript and Python.
+- [Pulumi](https://www.pulumi.com/): IaC for multiple cloud providers. Uses mainstream languages like JavaScript and Python.
 - [AWS CDK](https://github.com/aws/aws-cdk): IaC for AWS Cloud written in TypeScript with APIs for multiple programming languages.
 
